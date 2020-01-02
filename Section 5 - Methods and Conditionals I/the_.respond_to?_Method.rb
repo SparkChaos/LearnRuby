@@ -9,7 +9,7 @@ if num.respond_to?("odd?")
 end
 
 
-puts "Hello".respond_to?("length")
+puts "Hello".respond_to?("length") # Not the fastest nor the most efficient way of checking a method with string "". Still valid though.
 puts "Hello".respond_to?(:length) # : starts the 'symbol'. This is more lightweight to Ruby.
 
 # Both above puts return true.
